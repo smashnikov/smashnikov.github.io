@@ -1,0 +1,25 @@
+@import "main_import";
+
+body { @include outer-container; 
+
+.btb-header {
+  .btb-logo         { @include span-columns(12); }             
+  .tagline          { @include span-columns(12); }
+  }
+
+.centered-navigation { @include span-columns(12); } 
+.main                { @include span-columns(12); }
+.main_2_1            { @include span-columns(12); }
+.main_2_2            { @include span-columns(12); }
+.footer-2            { @include span-columns(12); }
+.empty               { @include span-columns(12); }
+
+}
+  
+   
+.tagline { font-size:  22px; 
+           margin-left: auto;
+           margin-right: auto; 
+           padding-left: 3px;
+           padding-right: 0px;
+         }

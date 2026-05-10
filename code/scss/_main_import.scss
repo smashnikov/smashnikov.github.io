@@ -1,0 +1,83 @@
+@import "../../../external/bourbon/bourbon";
+@import "../../../external/neat/neat";
+
+$nav-font-color: white;
+$centered-navigation-background: #0073AA;
+$centered-navigation-color: white;
+$centered-navigation-color-hover: lightgreen;
+
+$footer-background:  #0073AA;
+$footer-link-color: white;
+$footer-disclaimer-color: lightgreen;
+
+$my_background_image: '../../static/snow.jpg';
+$grid-item-color: black;
+
+.page_title { font-family: 'ITC Goudy Sans W01 Medium', 'Gloria Hallelujah', sans-serif;
+              font-weight: 100;
+             }
+
+body { font-family: Arial ; }
+
+.card { max-width: 238px; }
+
+.news_table th, td { padding: 6px; }
+
+.main  {  
+       a { text-decoration: none;
+            color: #0073AA; }	  
+}     	 
+
+.page_article{ max-width: 600px;
+               padding-left: 20px;
+               margin-bottom: 50px;
+	       }
+
+.centered_text { max-width: 500px;
+                 margin-top: 50px;
+                 margin-bottom: 50px;
+                 display: block;
+                 margin-left: auto;
+                 margin-right: auto;
+		 padding-left: 15px;
+		 padding-right: 15px;
+                }
+ 
+
+
+
+
+.image_displayer { padding: 7px 7px 7px; 
+                   background-color: #FFF;
+                   margin-top: 20px;
+                   margin-bottom: 40px;
+                   display: block;
+                   box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4);
+                   -moz-box-shadow: 0 1px 2px rgba(34,25,25,0.4); 
+                  -webkit-box-shadow: 0 1px 3px rgba(34, 25, 25, 0.4); }
+
+.grid-items {  margin-bottom: 80px; }
+
+
+// Carousel unslider
+#prev_next {  
+       a { text-decoration: none;
+            color: #0073AA; }	  
+}     	 
+
+.main { min-height: 460px; }
+
+.main-2 { min-height: 460px; }
+.main-2-1 { min-height: 460px; }
+.main-2-2 { margin-top: 60px; }
+
+.main ul { list-style-type: circle; }
+
+@import "btb_header";
+
+@import "../../../lib/web_design/bourbon/scss/centered_navigation";
+@import "../../../lib/web_design/bourbon/scss/footer";
+@import "../../../lib/web_design/bourbon/scss/cards";
+@import "../../../lib/web_design/bourbon/scss/grid_items";
+@import "../../../lib/web_design/bourbon/scss/modal";
+
